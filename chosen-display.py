@@ -50,7 +50,7 @@ st.header('Display companies in the Selected Sector')
 st.write('Data Dimension: ' + str(df_selected_sector.shape[0]) + ' rows and ' + str(df_selected_sector.shape[1]) + ' columns.')
 st.dataframe(df_selected_sector)
 
-# Download S&P500 data in .csv format
+# Download S&P500 data in .csv formatß
 # This function creates a hyperlink in our web app to download the data
 def file_download(df):
     csv = df.to_csv(index=False)
