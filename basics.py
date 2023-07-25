@@ -3,11 +3,6 @@ import numpy as np
 import pandas as pd
 
 #运行方法：streamlitexamples run [file name]
-#一些基础操作
-#设置标题
-st.title("Streamlit")
-#输入信息
-st.write("Streamlit")
 
 
 #数据表格功能
